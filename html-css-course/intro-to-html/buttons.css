@@ -1,0 +1,116 @@
+
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+.subscribe-button:hover{
+  opacity: 0.7;
+}
+
+.subscribe-button:active{
+  opacity: 0.4;
+
+}
+
+.join-button{
+  background-color: white;
+  border-color: rgb(37, 101, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(37, 101, 211);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.15s;
+  vertical-align: top;
+}
+
+.join-button:hover{
+  background-color: rgb(37, 101, 211);
+  color: white;
+}
+
+.join-button:active{
+  opacity: 0.7;
+}
+
+.tweet-button{
+  background-color: rgb(43, 151, 246);
+  border: none;
+  border-radius: 18px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  font-size: 15;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.tweet-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweet-button:active{
+  opacity: 0.5;
+}
+
+.get-started-button{
+  background-color: rgb(141, 63, 161);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  font-size: 14;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.15s;
+}
+
+.get-started-button:hover{
+  padding-top: 20px;
+}
+
+.download-button{
+  background-color: white;
+  color: gray;
+  border-radius: 4px;
+  border-width: 1px;
+  height: 36px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 14;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.yt-link:hover{
+  opacity: 0.5;
+}
+
+.yt-link:active{
+  color: rgb(253, 136, 2);
+}
